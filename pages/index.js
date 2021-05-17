@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 7:52:22 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Mon May 17 2021                                              *
+ * Last Modified: Monday, 17th May 2021 1:12:13 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -22,51 +22,53 @@ import Footer from "../components/footer";
 
 function PortfolioHomePage() {
   return (
-    <div className="w-screen min-h-screen grid grid-rows-portfolio">
+    <div className="w-screen min-h-screen flex flex-col relative">
       {/* header */}
       <Header />
 
-      {/* hero */}
-      <Hero />
+      <div className="wrapper">
+        {/* hero */}
+        <Hero />
 
-      {/* clients */}
-      <Clients />
+        {/* clients */}
+        <Clients />
 
-      {/* services */}
-      <Services />
+        {/* services */}
+        <Services />
 
-      {/* resume */}
-      <section className="w-full" id="resume">
-        resume
-      </section>
+        {/* resume */}
+        <section className="w-full" id="resume">
+          resume
+        </section>
 
-      {/* skills */}
-      <section className="w-full" id="skills">
-        skills
-      </section>
+        {/* skills */}
+        <section className="w-full" id="skills">
+          skills
+        </section>
 
-      {/* tools */}
-      <section className="w-full" id="tools">
-        tools
-      </section>
+        {/* tools */}
+        <section className="w-full" id="tools">
+          tools
+        </section>
 
-      {/* works */}
-      <section className="w-full" id="works">
-        works
-      </section>
+        {/* works */}
+        <section className="w-full" id="works">
+          works
+        </section>
 
-      {/* testimonials */}
-      <section className="w-full" id="testimonials">
-        testimonials
-      </section>
+        {/* testimonials */}
+        <section className="w-full" id="testimonials">
+          testimonials
+        </section>
 
-      {/* faqs */}
-      <section className="w-full" id="faqs">
-        faqs
-      </section>
+        {/* faqs */}
+        <section className="w-full" id="faqs">
+          faqs
+        </section>
 
-      {/* footer */}
-      <Footer />
+        {/* footer */}
+        <Footer />
+      </div>
     </div>
   );
 }

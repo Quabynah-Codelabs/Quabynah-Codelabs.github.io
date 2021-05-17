@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 7:56:22 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Mon May 17 2021                                              *
+ * Last Modified: Monday, 17th May 2021 1:11:11 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -20,12 +20,16 @@ module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   presets: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       gridTemplateRows: {
         portfolio:
-          "4.5rem minmax(850px, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) 6rem",
+          "minmax(650px, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) 6rem",
+      },
+      colors: {
+        primary: "#040306",
+        secondary: "#976c52",
       },
     },
     screens: {
@@ -266,7 +270,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        "Playfair Display",
+        "Work Sans",
         "ui-sans-serif",
         "system-ui",
         "-apple-system",
@@ -1048,5 +1052,5 @@ module.exports = {
     wordBreak: ["responsive"],
     zIndex: ["responsive", "focus-within", "focus"],
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
