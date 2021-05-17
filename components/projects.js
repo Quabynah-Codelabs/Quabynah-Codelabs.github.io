@@ -1,10 +1,10 @@
 /*
- * File: next.config.js                                                        *
+ * File: clients.js                                                            *
  * Project: quabynah-codelabs                                                  *
- * Created Date: Monday, May 17th 2021, 9:55:17 am                             *
+ * Created Date: Monday, May 17th 2021, 9:46:58 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Monday, 17th May 2021 1:54:29 pm                             *
+ * Last Modified: Monday, 17th May 2021 3:21:56 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -13,8 +13,13 @@
  * Date      	By	Comments                                                   *
  * ----------	---	---------------------------------------------------------  *
  */
-module.exports = {
-  images: {
-    domains: ["avatars.githubusercontent.com", "images.unsplash.com"],
-  },
-};
+function Projects() {
+  return (
+    <section className="projects-section max-w-6xl mx-auto" id="works">
+      <h2 className="section-header text-3xl">Projects</h2>
+      <div className="flex relative"></div>
+    </section>
+  );
+}
+
+export default Projects;

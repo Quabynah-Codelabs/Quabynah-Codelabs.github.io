@@ -1,10 +1,10 @@
 /*
- * File: clients.js                                                            *
+ * File: testimonials.js                                                       *
  * Project: quabynah-codelabs                                                  *
- * Created Date: Monday, May 17th 2021, 9:46:58 am                             *
+ * Created Date: Monday, May 17th 2021, 1:45:52 pm                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Monday, 17th May 2021 1:14:03 pm                             *
+ * Last Modified: Monday, 17th May 2021 3:21:56 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -13,12 +13,13 @@
  * Date      	By	Comments                                                   *
  * ----------	---	---------------------------------------------------------  *
  */
-function Clients() {
+function Testimonials() {
   return (
-    <section className="clients-section mx-auto" id="clients">
-      <h2 className="section-header text-3xl">Clients</h2>
+    <section className="w-full h-full max-w-6xl" id="testimonials">
+      <h2 className="section-header text-3xl">Testimonials</h2>
+      <div className="grid"></div>
     </section>
   );
 }
 
-export default Clients;
+export default Testimonials;

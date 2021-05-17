@@ -13,7 +13,7 @@
 @tailwind utilities;
 
 .wrapper {
-  @apply grid grid-rows-portfolio max-w-6xl w-full mx-auto mt-24 gap-y-16;
+  @apply grid grid-rows-portfolio w-full mx-auto mt-20  gap-y-8 lg:gap-y-20;
 }
 
 /* section header */
@@ -33,7 +33,7 @@
 
 /* navigation header */
 .nav-header {
-  @apply max-w-7xl mx-auto px-4 py-6 lg:px-8 xl:px-0 w-full box-border fixed flex top-0 inset-x-0 items-center justify-between bg-white dark:bg-black z-10;
+  @apply max-w-7xl mx-auto flex top-0 inset-x-0 items-center justify-between z-50;
 }
 
 /* hero section */
@@ -41,8 +41,8 @@
   @apply px-8 py-8 lg:px-0 w-full h-full flex flex-col items-center text-center max-w-xl lg:max-w-3xl mx-auto space-y-8;
 }
 
-/* clients section */
-.clients-section {
+/* projects section */
+.projects-section {
   @apply w-full h-full max-w-5xl flex flex-col;
 }
 
@@ -94,3 +94,19 @@ strong {
 }
 
 /* endregion */
+
+/* services rendered card */
+.service-card {
+  @apply cursor-pointer flex flex-col h-full w-full bg-white dark:bg-gray-800 rounded-md hover:shadow-sm;
+}
+
+/* banner image */
+.service-card .banner-img-container {
+  @apply w-full h-40 overflow-hidden rounded-md;
+}
+.service-card .banner-img-container .banner-img {
+  @apply object-cover object-top;
+}
+.services-container {
+  @apply z-10 flex flex-col w-full mx-auto max-w-6xl px-8 lg:px-0 space-y-8 lg:space-y-0 md:grid  md:grid-cols-2 md:grid-flow-row md:gap-x-4 lg:grid-cols-3 lg:gap-x-8;
+}

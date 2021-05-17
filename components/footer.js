@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 9:49:22 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Mon May 17 2021                                              *
+ * Last Modified: Monday, 17th May 2021 3:21:56 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -15,7 +15,7 @@
  */
 function Footer() {
   return (
-    <footer className="w-full" id="footer">
+    <footer className="w-full max-w-6xl" id="footer">
       footer
     </footer>
   );

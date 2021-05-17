@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 9:46:22 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Monday, 17th May 2021 12:55:49 pm                            *
+ * Last Modified: Monday, 17th May 2021 3:21:04 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -21,7 +21,7 @@ import Link from "next/link";
 // https://avatars.githubusercontent.com/u/41457025?v=4
 function Hero() {
   return (
-    <section className="hero-section" id="hero">
+    <section className="hero-section max-w-6xl" id="hero">
       {/* avatar */}
       <div className="h-28 w-28">
         <Image
