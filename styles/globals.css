@@ -97,7 +97,13 @@ strong {
 
 /* services rendered card */
 .service-card {
-  @apply cursor-pointer flex flex-col h-full w-full bg-white dark:bg-gray-800 rounded-md hover:shadow-sm;
+  @apply cursor-pointer flex flex-col h-full w-full bg-white dark:bg-gray-800 rounded-md hover:shadow-lg hover:text-white hover:bg-primary transition duration-150;
+}
+.service-card h5 {
+  @apply group-hover:text-white;
+}
+.service-card p {
+  @apply group-hover:text-white;
 }
 
 /* banner image */
@@ -105,7 +111,7 @@ strong {
   @apply w-full h-40 overflow-hidden rounded-md;
 }
 .service-card .banner-img-container .banner-img {
-  @apply object-cover object-top;
+  @apply object-cover object-top rounded-br-xl;
 }
 .services-container {
   @apply z-10 flex flex-col w-full mx-auto max-w-6xl px-8 lg:px-0 space-y-8 lg:space-y-0 md:grid  md:grid-cols-2 md:grid-flow-row md:gap-x-4 lg:grid-cols-3 lg:gap-x-8;

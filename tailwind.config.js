@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 7:56:22 am                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Monday, 17th May 2021 3:25:04 pm                             *
+ * Last Modified: Monday, 17th May 2021 3:46:06 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -25,7 +25,7 @@ module.exports = {
     extend: {
       gridTemplateRows: {
         portfolio:
-          "minmax(650px, 1fr) minmax(15rem, 1fr) repeat(6, minmax(10rem, 1fr)) 6rem",
+          "minmax(650px, 1fr) minmax(18rem, 1fr) repeat(6, minmax(10rem, 1fr)) 6rem",
       },
       colors: {
         primary: "#040306",

@@ -4,7 +4,7 @@
  * Created Date: Monday, May 17th 2021, 2:17:12 pm                             *
  * Author: Quabynah Bilson                                                     *
  * -----                                                                       *
- * Last Modified: Monday, 17th May 2021 2:50:07 pm                             *
+ * Last Modified: Monday, 17th May 2021 4:10:20 pm                             *
  * Modified By: Quabynah Bilson                                                *
  * -----                                                                       *
  * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
@@ -38,3 +38,80 @@ export const kServices = [
       "https://images.unsplash.com/flagged/photo-1573162915884-74c45ba4cfe6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
   },
 ];
+
+// resume
+export const kResume = {
+  work: [
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+  ],
+  courses: [
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+    {
+      heading: "",
+      subhead: "",
+      description: "",
+    },
+  ],
+  education: [
+    {
+      heading: "University of Ghana",
+      subhead: "B.A. Computer Science & Mathematics",
+      description: "2014-2018",
+    },
+    {
+      heading: "Odorgonno SHS",
+      subhead: "Business",
+      description: "2009-2013",
+    },
+    {
+      heading: "Ewit Greenwich Classical Academy",
+      subhead: "Basic education",
+      description: "1999-2009",
+    },
+  ],
+  skills: {
+    design: ["Adobe XD", "Figma"],
+  },
+  tools: [
+    "Visual Studio Code",
+    "IntelliJ IDEA",
+    "Android Studio",
+    "Adobe XD",
+    "Figma",
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+  ],
+};
