@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://example.io/sitemap.xml
+Sitemap: https://quabynah-codelabs.io/sitemap.xml
