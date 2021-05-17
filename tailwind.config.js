@@ -1,3 +1,19 @@
+/*
+ * File: tailwind.config.js                                                    *
+ * Project: quabynah-codelabs                                                  *
+ * Created Date: Monday, May 17th 2021, 7:56:22 am                             *
+ * Author: Quabynah Bilson                                                     *
+ * -----                                                                       *
+ * Last Modified: Mon May 17 2021                                              *
+ * Modified By: Quabynah Bilson                                                *
+ * -----                                                                       *
+ * Copyright (c) 2021 Quabynah Codelabs LLC                                    *
+ * -----                                                                       *
+ * HISTORY:                                                                    *
+ * Date      	By	Comments                                                     *
+ * ----------	---	---------------------------------------------------------    *
+ */
+
 const colors = require("tailwindcss/colors");
 
 module.exports = {
@@ -6,6 +22,12 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    extend: {
+      gridTemplateRows: {
+        portfolio:
+          "4.5rem minmax(850px, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) minmax(10rem, 1fr) 6rem",
+      },
+    },
     screens: {
       sm: "640px",
       md: "768px",
