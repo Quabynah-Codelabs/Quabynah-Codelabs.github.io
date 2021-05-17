@@ -36,6 +36,7 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  font-family: "Raleway";
 }
 
 .title a:hover,
@@ -48,6 +49,7 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  font-family: "Playfair Display";
 }
 
 .title,
@@ -65,8 +67,8 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Dank Mono, Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -106,6 +108,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  font-family: "Raleway";
 }
 
 .logo {
