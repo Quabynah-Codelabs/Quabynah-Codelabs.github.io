@@ -22,7 +22,7 @@ function Resume() {
         <div className="flex flex-col">Work experience</div>
         <div className="flex flex-col">Education</div>
         <div className="flex flex-col">Skills</div>
-        <div className="flex flex-col">Online courses</div>
+      <div className="flex flex-col">Online courses</div>
       </div>
     </section>
   );
